@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import data from '../../data/dummyDecks.json';
-import { jumbleMany } from '../../utils/strings';
+import { jumbleMany } from './appFunctions';
 import { getRandomNum } from '../../utils/numbers';
 
-export default function WordScramble(){
+export default function WordJumbleApp(){
     const [word, setWord] = useState<string>("")
     
     const onClick = async () => {

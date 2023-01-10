@@ -1,9 +1,9 @@
-import { WordScramble } from "./components"
+import { WordJumbleApp } from "./components"
 function App() {
 
   return (
     <div className="App w-screen h-screen">
-      <WordScramble/>
+      <WordJumbleApp/>
     </div>
   )
 }

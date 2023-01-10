@@ -1,1 +1,1 @@
-export {default as WordScramble} from './WordScramble'
+export {default as WordJumbleApp} from './WordJumbleApp'
