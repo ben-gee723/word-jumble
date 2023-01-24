@@ -12,7 +12,7 @@ export function wordJumble(word:string):string {
     count--;
     return acc;
   }, "");
-}
+};
 // console.log(wordJumble("zdravo"));
 
 // Jumple Many

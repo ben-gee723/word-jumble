@@ -1,3 +1,6 @@
 {
-    "words": ["Ja sam", "Ti si", "on je", "ona je", "ono je", "Mi smo", "Vi ste", "Oni su", "One su", "Ona su"]
+    "words": ["Zdravo", "Ja sam", "Ti si", "on je", "ona je", "ono je", "Mi smo", "Vi ste", "Oni su", "One su", "Ona su", "Drago me je", "Kako se zovete?", "Kako se zoves?", "Sestra", "moj", "moja", "Da li", "ovo", ""],
+    "testArr":[
+        { "word": "Zdravo", "tanslation": "Hello" }
+    ]
 }

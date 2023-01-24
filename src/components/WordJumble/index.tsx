@@ -3,12 +3,12 @@ import data from '../../data/dummyDecks.json';
 import { jumbleMany } from './appFunctions';
 import { getRandomNum } from '../../utils/numbers';
 
-export default function WordJumbleApp(){
+export default function WordJumble(){
     const [word, setWord] = useState<string>("")
     
     const onClick = async () => {
-        let number: number = await getRandomNum(data.words.length)
-        let word: string = await data.words[number];
+        let number: number = await getRandomNum(data.testArr.length)
+        let word: string = await data.testArr[number].word;
         let jumbled:string = await jumbleMany(word)
         await setWord(jumbled)
     };
